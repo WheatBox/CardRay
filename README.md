@@ -1,5 +1,9 @@
 # CardRay
 
+### 名片 | Business card
+
+进行中... | In process...
+
 ### main.cpp
 
     #include <cstdio>                     // ./main | Out-File out.ppm -Encoding ASCII
