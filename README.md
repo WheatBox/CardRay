@@ -29,6 +29,10 @@
     (x=0;x<w;x++){V c=0;for(i=0;i<s;i++){F e;V m=T(e,t,{0,-80,-120},{(F)x/w-.5f,(F)y/w
     -.5f,1},4);c=c-(m*e)*-1;}c=c*(255./s); printf("%d %d %d ",C(c.x),C(c.y),C(c.z));}}
 
+### 构建 | Build
+
+    g++ main.cpp -o main -O3
+
 ### out.ppm (已转换为 out.png | Converted to out.png)
 
 ![out.png](out.png)
@@ -38,3 +42,11 @@
 这段程序的渲染可能会耗费十个小时左右的时间，但可以将倒数第三行的 w、s、t 三个变量分别改成 400、512、4，便能在几分钟后就得到一张图片（虽然质量会有点差）
 
 The rendering of this program may take about ten hours, but you can change the variables w, s, t in the third to last row to 400, 512, 4, respectively, to get an image in a few minutes (although the quality may be a bit poor)
+
+我测试过以下编译器，均没问题：
+
+I have tested the following compilers and found no issues:
+
+    msvc 19.38.33130
+    gcc 13.2.0
+    clang 17.0.3
