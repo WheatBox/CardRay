@@ -33,6 +33,15 @@
 
     g++ main.cpp -o main -O3
 
+### 运行 | Run
+    
+    # Powershell 6 或更高版本 | Powershell 6 or higher version
+    ./main > out.ppm
+
+    # 如果不知道版本的话就用这一条，这条在新老版本的 Powershell 都能用：
+    # If you don't know the version, use this one, which can be used in both new and old versions of Powershell:
+    ./main | Out-File out.ppm -Encoding ASCII
+
 ### out.ppm (已转换为 out.png | Converted to out.png)
 
 ![out.png](out.png)
