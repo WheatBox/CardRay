@@ -2,7 +2,13 @@
 
 ### 名片 | Business card
 
-进行中... | In process...
+![Forward.png](Forward.png)
+
+![Backward.png](Backward.png)
+
+备注：周问晦是化名
+
+Note: 周问晦 is a pseudonym
 
 ### main.cpp
 
